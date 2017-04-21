@@ -5,6 +5,11 @@ Dockerfile for Mutillidae II v2.6.44 running on Ubuntu 16.04 with a Xampp v5.6.3
 
 Dockerfile for creating an Ubuntu 16.04 / Xampp v5.6.30 stack container for OWASP Mutillidae II Web Pen-Test Practice Application v2.6.44
 
+# Pull Docker Image
+[Docker Store](https://store.docker.com/community/images/bltsec/mutillidae-docker)
+or
+docker pull bltsec/mutillidae-docker
+
 # Quickstart
 
 **Pull Docker Image**
