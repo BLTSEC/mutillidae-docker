@@ -1,9 +1,9 @@
 # mutillidae-docker
 
-Dockerfile for Mutillidae II v2.6.44 running on Ubuntu 16.04 with a Xampp v5.6.30 stack
+Dockerfile for Mutillidae II v2.6.52 running on Ubuntu 16.04 with a Xampp v5.6.30 stack
 # Description
 
-Dockerfile for creating an Ubuntu 16.04 / Xampp v5.6.30 stack container for OWASP Mutillidae II Web Pen-Test Practice Application v2.6.44
+Dockerfile for creating an Ubuntu 16.04 / Xampp v5.6.30 stack container for OWASP Mutillidae II Web Pen-Test Practice Application v2.6.52
 
 # Pull Docker Image
 [Docker Store](https://store.docker.com/community/images/bltsec/mutillidae-docker)
@@ -35,7 +35,7 @@ Start: docker run -d -p 80:80 -p 443:443 --name owasp17 bltsec/mutillidae-docker
 * Now to to https://localhost:PortYouSpecifiedForHttps/mutillidae
 
 # Features
-* Has over 40 vulnerabilities and challenges. Contains at least one vulnerability for each of the OWASP Top Ten 2007, 2010 and 2013
+* Has over 40 vulnerabilities and challenges. Contains at least one vulnerability for each of the OWASP Top Ten 2007, 2010, 2013 and 2017
 * Actually Vulnerable (User not asked to enter “magic” statement)
 * Mutillidae can be installed on Linux, Windows XP, and Windows 7 using XAMMP making it easy for users who do not want to install or administrate their own webserver. Mutillidae is confirmed to work on XAMPP, WAMP, and LAMP.
 * Installs easily by dropping project files into the "htdocs" folder of XAMPP.
