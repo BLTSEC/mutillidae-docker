@@ -1,5 +1,10 @@
 # mutillidae-docker
 
+> [!WARNING]
+> **Archived and no longer maintained**
+>
+> This legacy image uses Ubuntu 16.04 and XAMPP 5.6.30, both of which are end-of-life. It is an intentionally vulnerable training target: use it only in an isolated lab and never expose it to an untrusted network or production environment. For maintained Mutillidae releases and current Docker instructions, use the [official Mutillidae repository](https://github.com/webpwnized/mutillidae).
+
 Dockerfile for Mutillidae II v2.6.52 running on Ubuntu 16.04 with a Xampp v5.6.30 stack
 # Description
 
